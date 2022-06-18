@@ -53,7 +53,7 @@ main > p {
     padding-bottom: 30px
 }
 #video {
-    padding: 20px;
+    padding: 50px;
     
 }
 #lista {
@@ -61,16 +61,19 @@ main > p {
     font-size: 30px;
     color: #152718;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.329);
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: #afe4b8;
-    margin: auto;
-    width: 200px;
+    padding: 5px;
+        
     border-radius: 10px;
-    
-    
+}
+div {
+    display: inline-block;
 }
 iframe {
-    display: block;
-    margin: auto;
+    border-radius: 10px;
+}
+li {
+    padding-bottom: 45px;
+}
+#lista > p {
+    padding-bottom: 25px;
 }
